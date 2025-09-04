@@ -4,8 +4,8 @@
 # 更多插件可前往 https://hub.kelee.one 安装
 
 [General]
-ip-mode = v4-only
-ipv6-vif = off
+ip-mode = dual
+ipv6-vif = auto
 dns-server = system
 sni-sniffing = true
 disable-stun = false
