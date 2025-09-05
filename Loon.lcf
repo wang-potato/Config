@@ -173,6 +173,11 @@ https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=兜底后备策略, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, tag=微信外部链接解锁, enabled=true
+https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx, tag=微信小程序去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx, tag=微信公众号去广告, enabled=true
+https://raw.githubusercontent.com/app2smile/rules/master/plugin/spotify.plugin, tag=Spotify音乐VIP, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/Loon/Loon_TF_Account.plugin, tag=TestFlight账户合并, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx, policy=DIRECT, tag=自动加入TestFlight, enabled=false
 https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx, tag=知乎去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx, tag=微博去广告, enabled=true
@@ -185,7 +190,7 @@ https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx, tag=豆瓣去广告, enab
 https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, tag=BiliBili去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx, tag=百度贴吧去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=true
+https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=false
 https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=兜底后备策略, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=兜底后备策略, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=兜底后备策略, enabled=true
