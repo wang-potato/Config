@@ -30,6 +30,9 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 [Remote Proxy]
 TKV = https://subs.ojbktv.com/subscribe/?sid=4889&uid=4317&token=d2Y5aW40eS9ISXZISTZNVkdiL2NOMGVobDl6TnZSd2tnVDQ4QUtpdVRlbz0&app=auto,parser-enabled = true,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs/zs13.png
+Alphaio = https://links.azurefd.net/api/v1/client/subscribe?token=3afc1121f9c7fa74b779fa10ab07a489,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs/zs19.png
+守候网络 = https://sub1.sntp.dev/baseStr?token=2bf3d1f03dede77e99e56d776f8a0d9d&timestamp=130420,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs/zs18.png
+COO = https://sub.coo.autos/api/v1/client/subscribe?token=acf4031f444f5408650e9c6257353a43,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs/zs26.png
 
 [Remote Filter]
 香港节点 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
@@ -114,7 +117,7 @@ IP-CIDR,28.0.0.1/8,DIRECT
 IP-CIDR,198.18.0.1/16,DIRECT
 IP-CIDR,198.18.0.0/15,DIRECT
 IP-CIDR6,fc00::/18,DIRECT
-FINAL,台湾手动场景
+FINAL,兜底后备策略
 
 [Remote Rule]
 #微信
@@ -123,7 +126,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Quant
 https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list, policy=DIRECT, tag=BiliBili, enabled=true
 # 电报
 https://rule.kelee.one/Loon/Telegram.lsr, policy=狮城自动策略, tag=Telegram, enabled=true
-# Tik Tok
+# TikTok
 https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=全球手动场景, tag=TikTok, enabled=true
 # AI平台
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国手动场景, tag=AI, enabled=true
@@ -169,13 +172,24 @@ https://kelee.one/Tool/Loon/Lpx/LoonGallery.lpx, policy=兜底后备策略, enab
 https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
-https://kelee.one/Tool/Loon/Lpx/QuickSearch.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=兜底后备策略, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Auto_Join_TF.lpx, policy=DIRECT, tag=自动加入TestFlight, enabled=false
+https://kelee.one/Tool/Loon/Lpx/Zhihu_remove_ads.lpx, tag=知乎去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Weibo_remove_ads.lpx, tag=微博去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Taobao_remove_ads.lpx, tag=淘宝去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/AutoHome_remove_ads.lpx, tag=汽车之家去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx, tag=皮皮虾去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, tag=京东比价, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, tag=高德地图去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx, tag=豆瓣去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, tag=BiliBili去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx, tag=百度贴吧去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/TestFlightRegionUnlock.lpx, policy=DIRECT, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=兜底后备策略, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Sub-Store.lpx, policy=兜底后备策略, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Script-Hub.lpx, policy=兜底后备策略, enabled=true
+
 
 [Mitm]
 ca-p12 = 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
