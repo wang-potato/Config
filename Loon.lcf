@@ -124,7 +124,7 @@ https://raw.githubusercontent.com/ddgksf2013/Filter/master/StreamingSE.list, pol
 # 电报
 https://rule.kelee.one/Loon/Telegram.lsr, policy=狮城自动策略, tag=Telegram, enabled=true
 # Tik Tok
-https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=狮城手动场景, tag=TikTok, enabled=true
+https://kelee.one/Tool/Loon/Lsr/TikTok.lsr, policy=全球手动场景, tag=TikTok, enabled=true
 # AI平台
 https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy=美国手动场景, tag=AI, enabled=true
 https://raw.githubusercontent.com/wang-potato/Filter/refs/heads/main/Loon/AiInOne.lsr, policy=美国手动场景, tag=AI_In_One, enabled=true
@@ -134,25 +134,25 @@ https://raw.githubusercontent.com/wang-potato/Filter/refs/heads/main/Loon/Mail_D
 https://kelee.one/Tool/Loon/Lsr/AppleAccount.lsr, policy=DIRECT, tag=Apple Account, enabled=true
 https://kelee.one/Tool/Loon/Lsr/AppStore.lsr, policy=DIRECT, tag=App Store, enabled=true
 # Github
-https://rule.kelee.one/Loon/GitHub.lsr, policy=兜底后备策略, tag=GitHub, enabled=true
+https://rule.kelee.one/Loon/GitHub.lsr, policy=全球手动场景, tag=GitHub, enabled=true
 # YouTube
-https://rule.kelee.one/Loon/YouTube.lsr, policy=兜底后备策略, tag=Youtube, enabled=true
+https://rule.kelee.one/Loon/YouTube.lsr, policy=香港手动场景, tag=Youtube, enabled=true
 # Netflix & Disney+
 https://rule.kelee.one/Loon/Netflix.lsr, policy=狮城手动场景, tag=Netflix, enabled=false
 https://rule.kelee.one/Loon/Disney.lsr, policy=狮城手动场景, tag=Disney, enabled=false
 # Emby
 https://raw.githubusercontent.com/wang-potato/Filter/refs/heads/main/Loon/Emby_Direct.lsr, policy=DIRECT, tag=Emby_Direct, enabled=true
-https://raw.githubusercontent.com/wang-potato/Filter/refs/heads/main/Loon/Emby_Proxy.lsr, policy=狮城手动场景, tag=Emby_Proxy, enabled=false
+https://raw.githubusercontent.com/wang-potato/Filter/refs/heads/main/Loon/Emby_Proxy.lsr, policy=狮城手动场景, tag=Emby_Proxy, enabled=true
 # 社交媒体
-https://rule.kelee.one/Loon/Twitter.lsr, policy=兜底后备策略, tag=Twitter, enabled=true
-https://rule.kelee.one/Loon/Facebook.lsr, policy=兜底后备策略, tag=Facebook, enabled=true
-https://rule.kelee.one/Loon/Instagram.lsr, policy=兜底后备策略, tag=Instagram, enabled=true
+https://rule.kelee.one/Loon/Twitter.lsr, policy=全球手动场景, tag=Twitter, enabled=true
+https://rule.kelee.one/Loon/Facebook.lsr, policy=全球手动场景, tag=Facebook, enabled=true
+https://rule.kelee.one/Loon/Instagram.lsr, policy=全球手动场景, tag=Instagram, enabled=true
 # Spotify
 https://rule.kelee.one/Loon/Spotify.lsr, policy=狮城手动场景, tag=Spotify, enabled=true
 # Google
-https://rule.kelee.one/Loon/Google.lsr, policy=兜底后备策略, tag=Google, enabled=true
+https://rule.kelee.one/Loon/Google.lsr, policy=香港手动场景, tag=Google, enabled=true
 # 全球加速
-https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, tag=全球加速, 
+https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, policy=全球手动场景, tag=全球加速, enabled=true
 # 国内直连
 https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER, policy=DIRECT, tag=LAN, enabled=true
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER, policy=DIRECT, tag=CN REGION, enabled=true
