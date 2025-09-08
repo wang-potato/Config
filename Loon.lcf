@@ -154,6 +154,9 @@ https://rule.kelee.one/Loon/Instagram.lsr, policy=全球手动场景, tag=Instag
 https://rule.kelee.one/Loon/Spotify.lsr, policy=狮城手动场景, tag=Spotify, enabled=true
 # Google
 https://rule.kelee.one/Loon/Google.lsr, policy=香港手动场景, tag=Google, enabled=true
+# Speed test
+https://kelee.one/Tool/Loon/Lsr/SpeedtestChina.lsr, policy=DIRECT, tag=国内Speedtest, enabled=true
+https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动场景, tag=全球Speedtest, enabled=true
 # 全球加速
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, policy=全球手动场景, tag=全球加速, enabled=true
 # 国内直连
@@ -161,7 +164,7 @@ https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER, policy=DIRECT, tag=LAN, enabled=tr
 https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER, policy=DIRECT, tag=CN REGION, enabled=true
 
 [Host]
-ssid:Mr.Wang&Mrs.Wang_5G = server:192.168.1.2
+ssid:Mr.Wang&Mrs.Wang_5G = server:192.168.1.3
 
 [Rewrite]
 
@@ -173,6 +176,8 @@ https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=兜底后备策略, enabled=true
+https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx, tag=Apple天气增强, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Google.lpx, tag=Google重定向, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, tag=微信外部链接解锁, enabled=true
 https://kelee.one/Tool/Loon/Lpx/WexinMiniPrograms_Remove_ads.lpx, tag=微信小程序去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Weixin_Official_Accounts_remove_ads.lpx, tag=微信公众号去广告, enabled=true
