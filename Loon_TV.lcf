@@ -44,7 +44,7 @@ Alphaio = https://links.azurefd.net/api/v1/client/subscribe?token=3afc1121f9c7fa
 # --------------------------------
 # 手动策略组
 YouTube=select, 全球节点, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouTube.png
-Emby_Proxy=select, 全球节点, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TikTok.png
+Emby_Proxy=select, 狮城节点, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TikTok.png
 Speedtest Intl=select, 全球节点, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/OoklaSpeedtest.png
 TikTok=select, 全球节点, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TikTok.png
 Apple Account=select, DIRECT, 香港时延优选, 台湾时延优选, 日本时延优选, 韩国时延优选, 狮城时延优选, 美国时延优选, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
