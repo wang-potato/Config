@@ -28,8 +28,6 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 [Proxy]
 
 [Remote Proxy]
-守候网络 = https://sub1.sntp.dev/baseStr?token=2008bb9099471d502bde0f2da261d0c0&timestamp=130420,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs/zs18.png
-Alphaio = https://links.azurefd.net/api/v1/client/subscribe?token=3afc1121f9c7fa74b779fa10ab07a489,udp=true,block-quic=false,fast-open=default,vmess-aead=true,skip-cert-verify=true,enabled=true,flexible-sni=false,img-url=https://raw.githubusercontent.com/LovedGM/Quantumult-X-TuBiao/main/zishi-cs/zs19.png
 
 [Remote Filter]
 香港节点 = NameRegex,Alphaio,守候网络, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
