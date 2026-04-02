@@ -88,7 +88,7 @@ proxy-groups:
   - {name: 🎞 Emby直连, type: select, proxies: [DIRECT, 🎈 Emby节点]}
   - {name: 🎞 Emby代理, type: select, proxies: [🎈 Emby节点, DIRECT]}
   - {name: 🌍 国外媒体, type: select, proxies: [🎥 流媒体, 🚀 手动切换1, 🚀 手动切换2, 🔯 香港故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
-  - {name: 🌏 国内媒体, type: select, proxies: [[DIRECT, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
+  - {name: 🌏 国内媒体, type: select, proxies: [DIRECT, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点]}
   - {name: 🍎 苹果服务, type: select, proxies: [🚀 手动切换1, 🚀 手动切换2, 🔯 香港故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🎯 全球直连]}
   - {name: 🎮 游戏平台, type: select, proxies: [🚀 手动切换1, 🚀 手动切换2, 🔯 香港故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🎯 全球直连]}
   - {name: 💶 PayPal, type: select, proxies: [🚀 手动切换1, 🚀 手动切换2, 🔯 香港故转, 🔯 美国故转, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🎯 全球直连]}
