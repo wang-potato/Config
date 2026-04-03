@@ -2,7 +2,7 @@
 # 跑裸核用户请自行去掉下方控制面板模块的注释。
 # 规则集仓库：https://github.com/MetaCubeX/meta-rules-dat/tree/meta
 # icon图标仓库：https://github.com/Vbaethon/HOMOMIX
-# Update：2026-04-02 16:27:00
+# Update：2026-04-03 09:13:00
 # 机场订阅
 proxy-providers:
   Airport1:
@@ -114,7 +114,6 @@ rules:
   - RULE-SET,Download,🎯 全球直连
   - RULE-SET,PrivateTracker,🎯 全球直连
   - RULE-SET,MyPrivateTracker,🎯 全球直连
-  - RULE-SET,Plex,🎯 全球直连
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,AI,💬 AI平台
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
@@ -141,6 +140,7 @@ rules:
   - RULE-SET,Emby_Direct,🎞 Emby直连
   - RULE-SET,Emby_Proxy,🎞 Emby代理
   - RULE-SET,Disney,🎥 流媒体
+  - RULE-SET,Plex,🌏 国内媒体
   - RULE-SET,ChinaMedia,🌏 国内媒体
   - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,geolocation-!cn,🚀 节点选择
