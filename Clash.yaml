@@ -114,6 +114,7 @@ rules:
   - RULE-SET,Download,🎯 全球直连
   - RULE-SET,PrivateTracker,🎯 全球直连
   - RULE-SET,MyPrivateTracker,🎯 全球直连
+  - RULE-SET,Plex,🎯 全球直连
   - RULE-SET,proxylite,🚀 节点选择
   - RULE-SET,AI,💬 AI平台
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
@@ -176,6 +177,7 @@ rule-providers:
   Sony_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/sony.mrs"}
   Steam_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.mrs"}
   Nintendo_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nintendo.mrs"}
+  Plex: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/plex.mrs"}
   
   private_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"}
   cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
