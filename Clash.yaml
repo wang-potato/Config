@@ -4,7 +4,7 @@
 # 规则集仓库：https://github.com/ACL4SSR/ACL4SSR/tree/master
 # icon图标仓库：https://github.com/Vbaethon/HOMOMIX
 # 包含ACL4SSR去广告规则。
-# Update：2026-04-07 11:16:00
+# Update：2026-04-20 10:16:00
 # 机场订阅
 proxy-providers:
   Airport1:
@@ -150,7 +150,8 @@ rules:
   - RULE-SET,netflix_ip,🎥 流媒体,no-resolve
   - RULE-SET,telegram_ip,📲 电报消息,no-resolve
   - RULE-SET,Emby_Direct,🎞 Emby直连
-  - RULE-SET,Emby_Proxy,🎞 Emby代理
+  - RULE-SET,Emby_Direct,🎞 Emby直连
+  - RULE-SET,TMDB,🇭🇰 香港节点
   - RULE-SET,Disney,🎥 流媒体
   - RULE-SET,Plex,🌏 国内媒体
   - RULE-SET,ChinaMedia,🌏 国内媒体
@@ -190,6 +191,7 @@ rule-providers:
   Steam_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.mrs"}
   Nintendo_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/nintendo.mrs"}
   Plex: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/plex.mrs"}
+  TMDB: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tmdb.mrs"}
   adblock: { <<: *domain, url: "https://raw.githubusercontent.com/REIJI007/AdBlock_Rule_For_Clash/main/adblock_reject.mrs"}
   
   private_ip: {<<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"}
