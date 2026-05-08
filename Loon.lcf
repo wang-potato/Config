@@ -131,8 +131,8 @@ https://kelee.one/Tool/Loon/Lsr/SpeedtestInternational.lsr, policy=全球手动�
 # 全球加速
 https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list, policy=全球手动场景, tag=全球加速, enabled=true
 # 国内直连
-https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER, policy=DIRECT, tag=LAN, enabled=true
-https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER, policy=DIRECT, tag=CN REGION, enabled=true
+https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER.lsr, policy=DIRECT, tag=LAN, enabled=true
+https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER.lsr, policy=DIRECT, tag=CN REGION, enabled=true
 
 [Host]
 ssid:Mr.Wang&Mrs.Wang_5G = server:192.168.1.3
