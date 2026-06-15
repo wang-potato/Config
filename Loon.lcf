@@ -32,13 +32,13 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 
 
 [Remote Filter]
-香港节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-台湾节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-日本节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-韩国节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-狮城节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-美国节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
-全球节点 = NameRegex,TKV,Alphaio,守候网络,Ash, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
+香港节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+台湾节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Tai|Taiwan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+日本节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+韩国节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*((?i)🇰🇷|韩国|韓|首尔|(\b(KR|KOR|Korea)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+狮城节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+美国节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|(\b(US|USA|United States)(\d+)?\b)))(?!.*((?i)回国|校园|游戏|🎮|(\b(GAME)\b))).*$"
+全球节点 = NameRegex,守候网络,FlowerCloud, FilterKey = "^(?=.*(.))(?!.*((?i)群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|邀请|好友|(\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|(\d{4}-\d{2}-\d{2}|\dG)))).*$"
 
 [Proxy Group]
 # --------------------------------
@@ -85,6 +85,7 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 # IP-CIDR, 127.0.0.0/8, DIRECT
 # 配置文件已自带远程GEOIP, cn, DIRECT规则，请勿在此添加
 # 请勿修改远程CN REGION规则的排序甚至删除
+DOMAIN-SUFFIX,dpdns.org,美国手动场景
 IP-CIDR,28.0.0.1/8,DIRECT
 IP-CIDR,198.18.0.1/16,DIRECT
 IP-CIDR,198.18.0.0/15,DIRECT
@@ -147,6 +148,11 @@ https://kelee.one/Tool/Loon/Lpx/Block_HTTPDNS.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BlockAdvertisers.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Remove_ads_by_keli.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Prevent_DNS_Leaks.lpx, policy=兜底后备策略, enabled=true
+https://raw.githubusercontent.com/chmg2025/script/refs/heads/main/mdsp.js, enabled=true
+https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/insav.tv.lpx, tag=insav, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/haijiao.js/_end_/haijiao.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true, tag=海角解锁, enabled=true
+http://script.hub/file/_start_/https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/txxxxx.js/_end_/txxxxx.plugin?type=qx-rewrite&target=loon-plugin&del=true&jqEnabled=true, tag=糖心解锁, enabled=true
+https://raw.githubusercontent.com/AlbertMusk/Configs/refs/heads/main/loon/plugins/telegram-interrupt/plugin/telegram-interrupt.plugin, enabled=true
 https://kelee.one/Tool/Loon/Lpx/AppleWeatherEnhancer.lpx, tag=Apple天气增强, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Google.lpx, tag=Google重定向, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Weixin_external_links_unlock.lpx, tag=微信外部链接解锁, enabled=true
@@ -161,8 +167,7 @@ https://kelee.one/Tool/Loon/Lpx/PiPiXia_remove_ads.lpx, tag=皮皮虾去广告, 
 https://kelee.one/Tool/Loon/Lpx/JD_Price.lpx, tag=京东比价, enabled=true
 https://kelee.one/Tool/Loon/Lpx/JD_remove_ads.lpx, tag=京东去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Amap_remove_ads.lpx, tag=高德地图去广告, enabled=true
-https://kelee.one/Tool/Loon/Lpx/DouBan_remove_ads.lpx, tag=豆瓣去广告, enabled=true
-https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, tag=BiliBili去广告, enabled=true
+https://kelee.one/Tool/Loon/Lpx/Bilibili_remove_ads.lpx, policy=REJECT, tag=BiliBili去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Tieba_remove_ads.lpx, tag=百度贴吧去广告, enabled=true
 https://kelee.one/Tool/Loon/Lpx/Node_detection_tool.lpx, enabled=true
 https://kelee.one/Tool/Loon/Lpx/BoxJs.lpx, policy=兜底后备策略, enabled=true
