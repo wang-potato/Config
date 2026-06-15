@@ -41,8 +41,8 @@ bypass-tun = 10.0.0.0/8,100.64.0.0/10,127.0.0.0/8,169.254.0.0/16,172.16.0.0/12,1
 [Proxy Group]
 # --------------------------------
 # 手动策略组
-YouTube=香港故转, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouTube.png
-Emby_Proxy=狮城故转, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TikTok.png
+YouTube=select, 香港故转, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/YouTube.png
+Emby_Proxy=select, 狮城故转, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TikTok.png
 Speedtest Intl=select, 全球节点, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/OoklaSpeedtest.png
 Apple Account=select, DIRECT, 香港故转, 台湾故转, 日本故转, 韩国故转, 狮城故转, 美国故转, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/Apple.png
 App Store=select, DIRECT, 香港故转, 台湾故转, 日本故转, 韩国故转, 狮城故转, 美国故转, img-url=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/AppStore.png
